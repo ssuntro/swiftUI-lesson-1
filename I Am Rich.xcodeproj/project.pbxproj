@@ -13,6 +13,9 @@
 		BBBE5CCF26A3CBAB00AFBFF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBE5CCE26A3CBAB00AFBFF5 /* Preview Assets.xcassets */; };
 		BBBE5CDA26A3CBAB00AFBFF5 /* I_Am_RichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE5CD926A3CBAB00AFBFF5 /* I_Am_RichTests.swift */; };
 		BBBE5CE526A3CBAC00AFBFF5 /* I_Am_RichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE5CE426A3CBAC00AFBFF5 /* I_Am_RichUITests.swift */; };
+		BBBE5CF426A40A8600AFBFF5 /* SourceCodePro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBBE5CF326A40A8500AFBFF5 /* SourceCodePro-Regular.ttf */; };
+		BBBE5CF626A40B8B00AFBFF5 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBBE5CF526A40B8B00AFBFF5 /* Lobster-Regular.ttf */; };
+		BBBE5CF826A4108A00AFBFF5 /* ann.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BBBE5CF726A4108A00AFBFF5 /* ann.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		BBBE5CE026A3CBAC00AFBFF5 /* I Am RichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I Am RichUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBE5CE426A3CBAC00AFBFF5 /* I_Am_RichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Am_RichUITests.swift; sourceTree = "<group>"; };
 		BBBE5CE626A3CBAC00AFBFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBBE5CF326A40A8500AFBFF5 /* SourceCodePro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Regular.ttf"; sourceTree = "<group>"; };
+		BBBE5CF526A40B8B00AFBFF5 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		BBBE5CF726A4108A00AFBFF5 /* ann.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ann.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +101,10 @@
 		BBBE5CC626A3CBA800AFBFF5 /* I Am Rich */ = {
 			isa = PBXGroup;
 			children = (
+				BBBE5CF226A40A5900AFBFF5 /* Font */,
 				BBBE5CC726A3CBA800AFBFF5 /* I_Am_RichApp.swift */,
 				BBBE5CC926A3CBA800AFBFF5 /* ContentView.swift */,
+				BBBE5CF726A4108A00AFBFF5 /* ann.jpeg */,
 				BBBE5CCB26A3CBAB00AFBFF5 /* Assets.xcassets */,
 				BBBE5CD026A3CBAB00AFBFF5 /* Info.plist */,
 				BBBE5CCD26A3CBAB00AFBFF5 /* Preview Content */,
@@ -128,6 +136,15 @@
 				BBBE5CE626A3CBAC00AFBFF5 /* Info.plist */,
 			);
 			path = "I Am RichUITests";
+			sourceTree = "<group>";
+		};
+		BBBE5CF226A40A5900AFBFF5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BBBE5CF326A40A8500AFBFF5 /* SourceCodePro-Regular.ttf */,
+				BBBE5CF526A40B8B00AFBFF5 /* Lobster-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +250,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBBE5CF826A4108A00AFBFF5 /* ann.jpeg in Resources */,
 				BBBE5CCF26A3CBAB00AFBFF5 /* Preview Assets.xcassets in Resources */,
+				BBBE5CF626A40B8B00AFBFF5 /* Lobster-Regular.ttf in Resources */,
+				BBBE5CF426A40A8600AFBFF5 /* SourceCodePro-Regular.ttf in Resources */,
 				BBBE5CCC26A3CBAB00AFBFF5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
