@@ -19,6 +19,7 @@ struct InfoView: View {
                 icon
                     .foregroundColor(.green)
                 Text(displayText)
+                    .foregroundColor(Color("Info Color"))
             }).padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
 }
