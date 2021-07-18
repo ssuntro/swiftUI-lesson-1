@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBB650AB26A420220048E7EA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB650AA26A420220048E7EA /* InfoView.swift */; };
 		BBBE5CC826A3CBA800AFBFF5 /* I_Am_RichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE5CC726A3CBA800AFBFF5 /* I_Am_RichApp.swift */; };
 		BBBE5CCA26A3CBA800AFBFF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE5CC926A3CBA800AFBFF5 /* ContentView.swift */; };
 		BBBE5CCC26A3CBAB00AFBFF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBBE5CCB26A3CBAB00AFBFF5 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BBB650AA26A420220048E7EA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		BBBE5CC426A3CBA800AFBFF5 /* I Am Rich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Am Rich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBE5CC726A3CBA800AFBFF5 /* I_Am_RichApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Am_RichApp.swift; sourceTree = "<group>"; };
 		BBBE5CC926A3CBA800AFBFF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				BBBE5CF226A40A5900AFBFF5 /* Font */,
 				BBBE5CC726A3CBA800AFBFF5 /* I_Am_RichApp.swift */,
 				BBBE5CC926A3CBA800AFBFF5 /* ContentView.swift */,
+				BBB650AA26A420220048E7EA /* InfoView.swift */,
 				BBBE5CF726A4108A00AFBFF5 /* ann.jpeg */,
 				BBBE5CCB26A3CBAB00AFBFF5 /* Assets.xcassets */,
 				BBBE5CD026A3CBAB00AFBFF5 /* Info.plist */,
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBBE5CCA26A3CBA800AFBFF5 /* ContentView.swift in Sources */,
+				BBB650AB26A420220048E7EA /* InfoView.swift in Sources */,
 				BBBE5CC826A3CBA800AFBFF5 /* I_Am_RichApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

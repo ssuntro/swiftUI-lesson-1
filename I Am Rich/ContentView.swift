@@ -42,19 +42,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-struct InfoView: View {
-    let displayText: String
-    let icon: Image
-    var body: some View {
-        RoundedRectangle(cornerRadius: 25)
-            .fill(Color.white)
-            .frame(height: 40)
-//                    .foregroundColor(.white)
-            .overlay(HStack {
-                icon
-                    .foregroundColor(.green)
-                Text(displayText)
-            }).padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-    }
-}
